@@ -1,6 +1,6 @@
 # Computer Process Live
 
-![image](./github/preview.gif)
+![image](./docs/preview.gif)
 
 ### This project sends live process data through websockets<br><br><b>Includes:</b>
 - A react app as the front end to display the processes in the browser.
@@ -9,7 +9,7 @@
 <br>
 <br>
 
-![image](./github/setup.jpg)
+![image](./docs/setup.jpg)
 
 ## How to Use. 
 
