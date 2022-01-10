@@ -1,0 +1,46 @@
+
+
+.processList .listHeader {
+    background-color: rgb(43, 33, 90);
+    border-radius: 3px 3px 0px 0px;
+    margin: 10px 11px -2px 8px;
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    font-weight: bold;
+    z-index: 999999999;
+    color: rgb(233, 233, 233);
+}
+
+.processList .listHeader > div {
+    width: 25%;
+    text-align: center;
+    padding: 20px 0px;
+
+}
+.processList .listHeader > div.sortable {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+.processList .listHeader > div.sorted {
+    background-color: rgba(255, 255, 255, 0.04);
+
+}
+.processList .listHeader > div.sortable:hover {
+    background-color: rgba(255, 255, 255, 0.075);
+}
+
+.processList .listItems {
+    margin-bottom: 10px;
+    height: 100%;
+}
+
+.processList .listItems > div:nth-child(1) > div > div > div:nth-child(1) .processRow {
+    border-radius: 0px 0px 3px 3px !important;
+}
+
+.ReactVirtualized__Grid__innerScrollContainer {
+    margin-top: -3px
+}

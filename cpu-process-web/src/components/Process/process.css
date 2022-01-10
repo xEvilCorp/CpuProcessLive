@@ -1,0 +1,25 @@
+.processRow {
+    display: flex;
+    background-color: white;
+    margin: 3px 5px 0px 8px;
+    justify-content: space-around;
+    border-radius: 3px;
+    text-align: center;
+
+}
+
+.processRow p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 25%;
+    margin: 0;
+    padding: 1em 0px;
+
+}
+
+.processRow p.sorted {
+    background-color: rgba(91, 19, 133, 0.1);
+
+}
+
