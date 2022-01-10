@@ -29,7 +29,7 @@ public class Worker : BackgroundService
             } catch (Exception e) {
                 Console.WriteLine("ERROR: " + e.Message);
             }
-            await Task.Delay(2000, stoppingToken);
+            await Task.Delay(1000, stoppingToken);
         }
     }
 
