@@ -2,7 +2,7 @@
 
 ![image](./github/preview.gif)
 
-### This project sends process data through websockets streaming ram and cpu usage. <br><br><b>Includes:</b>
+### This project sends live process data through websockets<br><br><b>Includes:</b>
 - A react app as the front end to display the processes in the browser.
 - Websocket/SignalR .Net Api for the communication between the worker/frontend.
 - .Net Console/WorkerService that gathers the computer process data. 
