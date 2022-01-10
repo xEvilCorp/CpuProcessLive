@@ -13,8 +13,8 @@
 
 ## How to Use. 
 
-- Start the cpu-process-service with "dotnet run" or with the .exe.
-- Run the cpu_process-api with "dotnet run" or with the .exe.
+- Start the cpu-process-api with "dotnet run" or with the .exe.
+- Run the cpu-process-service with "dotnet run" or with the .exe.
 - Execute the cpu-process-web with "npm start".
 <br>
 <br>
